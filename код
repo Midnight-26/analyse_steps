@@ -1,0 +1,11 @@
+steps = int(input('Введите количество шагов за день:'))
+def analyze_steps(steps):
+
+        if steps < 5000:
+            print('Надо больше двигаться!')
+        elif steps >= 5000 and steps < 9999:
+            print('Неплохо, но можно лучше!')
+        else:
+            print('Отлично! Ты молодец!')
+
+analyze_steps(steps)
